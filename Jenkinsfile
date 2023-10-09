@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                sh 'python index.py 
+                sh 'python index.py' 
             }
         }
         stage('Deploy') {
